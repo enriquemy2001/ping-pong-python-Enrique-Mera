@@ -1,3 +1,6 @@
-from configuracion import Variables
+from config.configuracion import Pantalla
+from src.services.IniciadorService import Iniciador
 
-print(Variables["clave"])
+if __name__ == "__main__":
+    Iniciador(Pantalla)
+
