@@ -1,6 +1,6 @@
 from config.configuracion import Pantalla
-from src.services.IniciadorService import Iniciador
+from src.enrutador import Enrutador
 
 if __name__ == "__main__":
-    Iniciador(Pantalla)
-
+    enrutador= Enrutador(Pantalla)
+    enrutador.ejecutar()
