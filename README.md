@@ -31,14 +31,5 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 Se recomienda usar un entorno virtual:
 
 ```bash
-# Crear entorno virtual (opcional)
-python -m venv venv
-
-# Activar entorno virtual
-# En Windows
-venv\Scripts\activate
-# En Linux/macOS
-source venv/bin/activate
-
 # Instalar dependencias
 pip install pygame python-dotenv
